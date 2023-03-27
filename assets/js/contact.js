@@ -37,11 +37,11 @@ $(document).ready(() => {
   });
 
 
-  $('#nombre').val('pablo');
-  $('#email').val('pablo@pablo.com')
-  $('#confEmail').val('pablo@pablo.com')
-  $('#asunto').val('asunto de prueba')
-  $('#mensaje').val('esto es un mensaje para probar') 
+  // $('#nombre').val('pablo');
+  // $('#email').val('pablo@pablo.com')
+  // $('#confEmail').val('pablo@pablo.com')
+  // $('#asunto').val('asunto de prueba')
+  // $('#mensaje').val('esto es un mensaje para probar') 
 
   $('#contact-form').on('submit',(event) => {
 
