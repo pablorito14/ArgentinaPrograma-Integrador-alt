@@ -1,0 +1,5 @@
+/* comentar import de estilos segun se quiera con tarjetas o sin */
+
+/* @import url('./style_with_card.css'); */
+
+@import url('./style_without_card.css');
