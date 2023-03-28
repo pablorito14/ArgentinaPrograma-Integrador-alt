@@ -18,9 +18,8 @@ $(document).ready(() => {
       confEmail: {
         equalTo: '#email'
       },
-      asunto: {
+      motivo: {
         required: true,
-        minlength: 6
       },
       mensaje: {
         required: true,
@@ -31,17 +30,17 @@ $(document).ready(() => {
       nombre: 'El nombre debe tener al menos 3 caracteres',
       email: 'El correo no tiene un formato válido',
       confEmail: 'Los correos no son iguales',
-      asunto: 'El asunto debe tener al menos 6 caracteres',
+      motivo: 'Debe seleccionar un motivo',
       mensaje: 'La consulta debe tener al menos 10 caracteres'
     }
   });
 
 
-  // $('#nombre').val('pablo');
-  // $('#email').val('pablo@pablo.com')
-  // $('#confEmail').val('pablo@pablo.com')
+  $('#nombre').val('pablo');
+  $('#email').val('pablo@pablo.com')
+  $('#confEmail').val('pablo@pablo.com')
   // $('#asunto').val('asunto de prueba')
-  // $('#mensaje').val('esto es un mensaje para probar') 
+  $('#mensaje').val('esto es un mensaje para probar') 
 
   $('#contact-form').on('submit',(event) => {
 
@@ -58,7 +57,7 @@ $(document).ready(() => {
     const consulta = {
       nombre: $('#nombre').val(),
       email: $('#email').val(),
-      asunto: $('#asunto').val(),
+      motivo: $('#motivo').val(),
       mensaje: $('#mensaje').val()
     }
 
